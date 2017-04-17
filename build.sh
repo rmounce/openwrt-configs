@@ -8,6 +8,13 @@ if [ ! -f "$CONFIGPATH/$1" ]; then
 	exit
 fi
 
+read -p "Want to update package sources? " -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	scripts/feeds update -a
+	scripts/feeds install -a
+fi
+
 cp "$CONFIGPATH/$1" .config
 make defconfig
 scripts/diffconfig.sh
