@@ -22,4 +22,4 @@ scripts/diffconfig.sh
 echo "Look good? Press enter."
 read
 
-make -j4
+make -j6
