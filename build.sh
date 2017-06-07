@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 SCRIPT=$(readlink "$0")
 CONFIGPATH=$(dirname "$SCRIPT")
