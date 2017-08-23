@@ -3,7 +3,14 @@
 SCRIPT=$(readlink "$0")
 CONFIGPATH=$(dirname "$SCRIPT")
 
-if [ ! -f "$CONFIGPATH/$1" ]; then
+if [ "$1" == 'list' ]
+then
+	ls "$CONFIGPATH"
+	exit
+fi
+
+if [ ! -f "$CONFIGPATH/$1" ]
+then
 	echo "Can't find config file \"$1\""
 	exit
 fi
