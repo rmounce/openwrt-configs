@@ -22,4 +22,7 @@ scripts/diffconfig.sh
 echo "Look good? Press enter."
 read
 
-make -j6
+# Swallow the first argument
+shift
+
+make "$@"
