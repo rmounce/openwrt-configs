@@ -32,4 +32,4 @@ read
 # Swallow the first argument
 shift
 
-make "$@"
+nice make "$@"
