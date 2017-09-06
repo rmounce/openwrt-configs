@@ -1,0 +1,3 @@
+CONFIG_TARGET_mvebu=y
+CONFIG_TARGET_mvebu_DEVICE_turris-omnia=y
+CONFIG_TARGET_BOARD="mvebu"
