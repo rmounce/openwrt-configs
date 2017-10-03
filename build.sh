@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 SCRIPT=$(readlink "$0")
 CONFIGPATH=$(dirname "$SCRIPT")
