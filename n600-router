@@ -1,0 +1,15 @@
+CONFIG_TARGET_ar71xx=y
+CONFIG_TARGET_ar71xx_generic=y
+CONFIG_TARGET_ar71xx_generic_DEVICE_mynet-n600=y
+CONFIG_PACKAGE_luci=y
+
+CONFIG_PACKAGE_luci-app-sqm=y
+CONFIG_PACKAGE_kmod-sched-cake=y
+
+CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_luci-app-ddns=y
+
+CONFIG_PACKAGE_iftop=y
+CONFIG_PACKAGE_mtr=y
+CONFIG_PACKAGE_screen=y
+CONFIG_PACKAGE_tcpdump-mini=y

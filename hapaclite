@@ -1,4 +1,0 @@
-CONFIG_TARGET_ar71xx=y
-CONFIG_TARGET_ar71xx_mikrotik=y
-CONFIG_TARGET_ar71xx_mikrotik_DEVICE_rb-nor-flash-16M-qca9887=y
-# CONFIG_PACKAGE_ath10k-firmware-qca988x is not set
