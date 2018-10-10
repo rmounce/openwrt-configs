@@ -1,5 +1,8 @@
 CONFIG_TARGET_lantiq=y
 CONFIG_TARGET_lantiq_xrx200=y
 CONFIG_TARGET_lantiq_xrx200_DEVICE_bt_homehub-v5a=y
+
 CONFIG_PACKAGE_luci=y
+
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
 CONFIG_PACKAGE_rpcd-mod-file=y
