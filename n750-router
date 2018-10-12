@@ -1,6 +1,6 @@
 CONFIG_TARGET_ar71xx=y
 CONFIG_TARGET_ar71xx_generic=y
-CONFIG_TARGET_ar71xx_generic_DEVICE_mynet-n600=y
+CONFIG_TARGET_ar71xx_generic_DEVICE_mynet-n750=y
 
 CONFIG_PACKAGE_luci-ssl-openssl=y
 CONFIG_PACKAGE_openssl-util=y
