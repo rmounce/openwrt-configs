@@ -19,7 +19,7 @@ fi
 read -p "Want to update package sources? " -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-	scripts/feeds update -a
+	scripts/feeds update -a -r
 	scripts/feeds install -a
 fi
 
