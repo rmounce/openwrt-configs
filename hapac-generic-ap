@@ -2,6 +2,12 @@ CONFIG_TARGET_ar71xx=y
 CONFIG_TARGET_ar71xx_mikrotik=y
 CONFIG_TARGET_ar71xx_mikrotik_DEVICE_rb-nor-flash-16M-ac=y
 
+# CONFIG_PACKAGE_ath10k-firmware-qca988x-ct is not set
+CONFIG_PACKAGE_ath10k-firmware-qca988x-ct-htt=y
+
+# CONFIG_PACKAGE_ath10k-firmware-qca9887-ct is not set
+CONFIG_PACKAGE_ath10k-firmware-qca9887-ct-htt=y
+
 CONFIG_PACKAGE_luci=y
 
 CONFIG_PACKAGE_uhttpd-mod-ubus=y

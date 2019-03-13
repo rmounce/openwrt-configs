@@ -2,6 +2,9 @@ CONFIG_TARGET_lantiq=y
 CONFIG_TARGET_lantiq_xrx200=y
 CONFIG_TARGET_lantiq_xrx200_DEVICE_bt_homehub-v5a=y
 
+# CONFIG_PACKAGE_ath10k-firmware-qca988x-ct is not set
+CONFIG_PACKAGE_ath10k-firmware-qca988x-ct-htt=y
+
 CONFIG_PACKAGE_luci=y
 
 CONFIG_PACKAGE_irqbalance=y
