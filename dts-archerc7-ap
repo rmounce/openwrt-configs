@@ -1,0 +1,11 @@
+CONFIG_TARGET_ath79=y
+CONFIG_TARGET_ath79_generic=y
+CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c7-v2=y
+
+# CONFIG_PACKAGE_ath10k-firmware-qca988x-ct is not set
+CONFIG_PACKAGE_ath10k-firmware-qca988x-ct-htt=y
+
+CONFIG_PACKAGE_luci=y
+
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+CONFIG_PACKAGE_rpcd-mod-file=y
