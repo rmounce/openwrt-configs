@@ -2,47 +2,41 @@ CONFIG_TARGET_mvebu=y
 CONFIG_TARGET_mvebu_cortexa9=y
 CONFIG_TARGET_mvebu_cortexa9_DEVICE_cznic_turris-omnia=y
 
-# CONFIG_PACKAGE_ath10k-firmware-qca988x-ct is not set
-CONFIG_PACKAGE_ath10k-firmware-qca988x-ct-htt=y
-
-CONFIG_PACKAGE_irqbalance=y
-CONFIG_PACKAGE_ethtool=y
-
+# basic webui
 CONFIG_PACKAGE_luci-ssl=y
+
+# router stuff
 CONFIG_PACKAGE_luci-app-wol=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wireguard=y
+CONFIG_PACKAGE_luci-app-vnstat2=y
 CONFIG_PACKAGE_luci-app-ddns=y
-CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
+CONFIG_PACKAGE_ddns-scripts-cloudflare=y
 
-CONFIG_PACKAGE_tc=y
+# SMP performance
+CONFIG_PACKAGE_irqbalance=y
+
+# SQM stuff
 CONFIG_PACKAGE_kmod-ifb=y
 CONFIG_PACKAGE_kmod-sched-cake=y
 CONFIG_PACKAGE_iptables-mod-ipopt=y
-
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 CONFIG_PACKAGE_conntrack=y
 CONFIG_PACKAGE_kmod-sched-ctinfo=y
 CONFIG_PACKAGE_kmod-sched-connmark=y
-CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 
-CONFIG_PACKAGE_htop=y
-CONFIG_PACKAGE_mtr=y
-CONFIG_PACKAGE_nano=y
-CONFIG_PACKAGE_screen=y
+# basic diag
+CONFIG_PACKAGE_ethtool=y
+CONFIG_PACKAGE_ip-bridge=y
+CONFIG_PACKAGE_iperf=y
+CONFIG_PACKAGE_mtr-json=y
+CONFIG_PACKAGE_tc-tiny=y
 CONFIG_PACKAGE_tcpdump-mini=y
 
-CONFIG_PACKAGE_vnstat=y
-CONFIG_PACKAGE_vnstati=y
+# extra quality of life
+CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_iftop=y
+CONFIG_PACKAGE_iperf3=y
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_tmux=y
 
-CONFIG_PACKAGE_muninlite=y
-
-CONFIG_PACKAGE_uhttpd-mod-ubus=y
-CONFIG_PACKAGE_rpcd-mod-file=y
-
-CONFIG_PACKAGE_fdisk=y
-
-CONFIG_PACKAGE_kmod-usb-acm=y
-CONFIG_PACKAGE_kmod-usb-serial=y
-CONFIG_PACKAGE_kmod-usb-serial-ch341=y
-CONFIG_PACKAGE_ser2net=y

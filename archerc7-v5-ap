@@ -1,0 +1,25 @@
+CONFIG_TARGET_ath79=y
+CONFIG_TARGET_ath79_generic=y
+CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c7-v5=y
+
+CONFIG_PACKAGE_ath10k-firmware-qca988x=y
+# CONFIG_PACKAGE_ath10k-firmware-qca988x-ct is not set
+CONFIG_PACKAGE_kmod-ath10k=y
+# CONFIG_PACKAGE_kmod-ath10k-ct is not set
+
+# basic webui
+CONFIG_PACKAGE_luci-ssl=y
+
+# basic diag
+CONFIG_PACKAGE_ethtool=y
+CONFIG_PACKAGE_ip-bridge=y
+CONFIG_PACKAGE_iperf=y
+CONFIG_PACKAGE_mtr-nojson=y
+CONFIG_PACKAGE_tc-tiny=y
+CONFIG_PACKAGE_tcpdump-mini=y
+
+# WAP
+CONFIG_PACKAGE_luci-app-dawn=y
+CONFIG_PACKAGE_wpad-wolfssl=y
+# CONFIG_PACKAGE_wpad-basic-wolfssl is not set
+CONFIG_PACKAGE_hostapd-utils=y
